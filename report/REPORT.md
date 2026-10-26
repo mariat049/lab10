@@ -26,7 +26,8 @@ Default Gateway: 192.168.31.1
 <img width="1033" height="570" alt="image" src="https://github.com/user-attachments/assets/59f1ba77-ea0d-4baa-8301-55b3929bb251" />
 
 ## 9–11. Скрипт lab.sh
-(скріншот дерева каталогів, вивід перевірки email)
+<img width="1053" height="842" alt="image" src="https://github.com/user-attachments/assets/16e87e42-71dd-447e-aeb0-1dbd8d03e0fe" />
+
 
 ## 12. GitHub
 (скріншот зеленої галочки Actions)
