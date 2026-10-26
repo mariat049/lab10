@@ -7,19 +7,19 @@ source ./config.env
 ROOT="$SURNAME"
 
 # 9. Дерево: AAA -> DEE/GR1, SEE, SSS/GR2
-mkdir -p "$ROOT/DEE" "$ROOT/SEE" "$ROOT/SSS"
+mkdir -p "$ROOT/LAA" "$ROOT/LBB" "$ROOT/LCC"
 # GR1: файл з іменем -> електронна пошта
-echo "$EMAIL" > "$ROOT/DEE/${FIRSTNAME}.txt"
+echo "$EMAIL" > "$ROOT/LAA/GR1/${FIRSTNAME}.txt"
 # GR2: файл з прізвищем -> група та дата
-printf '%s\n%s\n' "$GROUP" "$DATE" > "$ROOT/SSS/${SURNAME}.txt"
+printf '%s\n%s\n' "$GROUP" "$DATE" > "$ROOT/LAA/GR2/${SURNAME}.txt"
 
 # 10. Копіювання файлів у кореневий каталог (AAA)
-cp "$ROOT/DEE/${FIRSTNAME}.txt" "$ROOT/"
-cp "$ROOT/SSS/${SURNAME}.txt"   "$ROOT/"
+cp "$ROOT/LAA/GR1/${FIRSTNAME}.txt" "$ROOT/"
+cp "$ROOT/LAA/GR2/${SURNAME}.txt"   "$ROOT/"
 
 # 11. Перевірка email регулярним виразом
 RE='^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'
-if grep -Eq "$RE" "$ROOT/${FIRSTNAME}.txt"; then
+if grep -Eq "$RE" "$ROOT/LAA//GR1/${FIRSTNAME}.txt"; then
   echo "[OK] У файлі ${FIRSTNAME}.txt міститься коректна електронна пошта"
 else
   echo "[ERR] У файлі ${FIRSTNAME}.txt немає коректної електронної пошти"
