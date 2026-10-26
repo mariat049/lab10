@@ -33,6 +33,8 @@ Default Gateway: 192.168.31.1
 (скріншот зеленої галочки Actions)
 
 ## 13. Помилки 404
-(кількість та вивід)
+<img width="965" height="74" alt="image" src="https://github.com/user-attachments/assets/51acfd2c-0d06-4eeb-b469-ebc1c1a6a741" />
+
 
 ## Висновок
+Під час виконання лабораторної роботи було освоєно практичні навички.
