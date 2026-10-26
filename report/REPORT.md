@@ -2,7 +2,7 @@
 
 **ПІБ:**Typylo M.  **Група:**KI-405  **Варіант:**22
 
-Посилання на репозиторій: https://github.com/USERNAME/REPO
+Посилання на репозиторій: [https://github.com/USERNAME/REPO](https://github.com/mariat049/lab10.git)
 
 ## 1–3. Драйвер мережевого адаптера
 (скріншоти диспетчера пристроїв)
