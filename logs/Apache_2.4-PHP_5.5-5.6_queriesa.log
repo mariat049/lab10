@@ -1,0 +1,2 @@
+ci3: 127.0.0.1 [20/Apr/2020:06:23:02 +0300] "GET /favicon.ico HTTP/1.1" 404 1379 "http://ci3/administrator/index.php" "Mozilla/5.0"
+ci3: 127.0.0.1 [20/Apr/2020:06:23:35 +0300] "GET /administrator/index.php HTTP/1.1" 200 7221 "-" "Mozilla/5.0"
