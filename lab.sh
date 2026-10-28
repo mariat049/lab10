@@ -6,12 +6,12 @@ source ./config.env
 
 ROOT="$SURNAME"
 
-# 9. Дерево: AAA -> LAA/GR1, LAA/GR2, LBB, LCC
+# 9. Дерево: AAA -> DEE, SEE, SSS
 mkdir -p "$ROOT/DEE"
 # GR1: файл з іменем -> електронна пошта
 echo "$EMAIL" > "$ROOT/DEE/${FIRSTNAME}.txt"
 # GR2: файл з прізвищем -> група та дата
-mkdir -p "$ROOT/SSS"
+mkdir -p "$ROOT/DEE" "$ROOT/SEE" "$ROOT/SSS"
 printf '%s\n%s\n' "$GROUP" "$DATE" > "$ROOT/SSS/Typylo.txt"
 
 # 10. Копіювання файлів у кореневий каталог (AAA)
