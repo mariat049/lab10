@@ -30,7 +30,8 @@ Default Gateway: 192.168.31.1
 
 
 ## 12. GitHub
-(скріншот зеленої галочки Actions)
+<img width="934" height="413" alt="image" src="https://github.com/user-attachments/assets/06ec4687-4022-4618-af8b-140f842a126f" />
+
 
 ## 13. Помилки 404
 <img width="965" height="74" alt="image" src="https://github.com/user-attachments/assets/51acfd2c-0d06-4eeb-b469-ebc1c1a6a741" />
