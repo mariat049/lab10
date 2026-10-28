@@ -6,7 +6,7 @@ source ./config.env
 
 ROOT="$SURNAME"
 
-# 9. Дерево: AAA -> DEE/GR1, SEE, SSS/GR2
+# 9. Дерево: AAA -> LAA/GR1, LAA/GR2, LBB, LCC
 mkdir -p "$ROOT/LAA/GR1" "$ROOT/LAA/GR2" "$ROOT/LBB" "$ROOT/LCC"
 # GR1: файл з іменем -> електронна пошта
 echo "$EMAIL" > "$ROOT/LAA/GR1/${FIRSTNAME}.txt"
